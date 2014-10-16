@@ -20,9 +20,10 @@ root: ~/src/cream
 
 windows:
   - editor:
-      layout: main-vertical
+      layout: main-horizontal
       panes:
         - vim
+        - #empty
         - guard
   - server: ~/src/cream/script/server
   - logs: tail -f log/development.log
